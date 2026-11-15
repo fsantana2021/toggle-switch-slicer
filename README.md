@@ -3,10 +3,18 @@
 A switch-style slicer for any two-value field: Yes/No, With/Without, Active/Inactive, Light/Dark.
 *Português abaixo.*
 
-![logo](logo_300x300.png)
+![Toggle Switch Slicer](banner.png)
+
+## Download
+**[⬇ ToggleSwitchSlicer-1.1.0.pbiviz](https://github.com/fsantana2021/toggle-switch-slicer/releases/latest/download/ToggleSwitchSlicer-1.1.0.pbiviz)**
+· [sample report](https://github.com/fsantana2021/toggle-switch-slicer/releases/latest/download/Toggle-Switch-Slicer-Sample-PBIP.zip)
+· [all releases](https://github.com/fsantana2021/toggle-switch-slicer/releases)
+
+In Power BI: *Visualizations › … › Import a visual from a file*. Some organizations only allow visuals from
+AppSource or approved by the Power BI admin; if the import is blocked, ask your admin.
 
 ## How to use
-1. Add **Toggle Switch Slicer** to your report (AppSource, or *Import a visual from a file* with the `.pbiviz`).
+1. Download the `.pbiviz` (above) and use *Import a visual from a file*.
 2. Drag a field with two values to **Field (2 values)**.
 3. In the Format pane › **Values**, set the value applied when the switch is **on** (default: the 2nd value of the
    field) and when it is **off** (default: no filter).
@@ -33,7 +41,7 @@ The visual does not collect or send any data. See [PRIVACY.md](PRIVACY.md).
 Segmentação em forma de chave para qualquer campo de dois valores: Sim/Não, Com/Sem, Ativo/Inativo, Claro/Escuro.
 
 ## Como usar
-1. Adicione a **Toggle Switch Slicer** ao relatório (AppSource, ou *Importar um visual de um arquivo* com o `.pbiviz`).
+1. Baixe o **[ToggleSwitchSlicer-1.1.0.pbiviz](https://github.com/fsantana2021/toggle-switch-slicer/releases/latest/download/ToggleSwitchSlicer-1.1.0.pbiviz)** e importe em *Visualizações › … › Importar um visual de um arquivo*.
 2. Arraste um campo de dois valores para **Campo (2 valores)**.
 3. Em Formatar › **Valores**, defina o valor aplicado com a chave **ligada** (padrão: 2º valor do campo) e
    **desligada** (padrão: sem filtro).
