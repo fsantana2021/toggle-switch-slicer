@@ -1,6 +1,6 @@
 # Privacy Policy — Toggle Switch Slicer
 
-*Last updated: [DATE]*
+*Last updated: November 15, 2026*
 
 Toggle Switch Slicer ("the visual") is a Power BI custom visual published by Felipe Santana.
 
@@ -21,7 +21,7 @@ settings are saved by Power BI as part of the report.
 
 # Política de Privacidade — Chave Seletora (Toggle Switch Slicer)
 
-*Atualizada em: [DATA]*
+*Atualizada em: 15/11/2026*
 
 A Chave Seletora ("o visual") é um visual personalizado do Power BI publicado por Felipe Santana.
 
