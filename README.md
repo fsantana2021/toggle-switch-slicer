@@ -7,7 +7,8 @@ A switch-style slicer for any two-value field: Yes/No, With/Without, Active/Inac
 
 ## Download
 **[⬇ Download ToggleSwitchSlicer.pbiviz (latest)](https://github.com/fsantana2021/toggle-switch-slicer/releases/latest/download/ToggleSwitchSlicer.pbiviz)**
-· [sample report (.pbip, Power BI Desktop with project files enabled)](https://github.com/fsantana2021/toggle-switch-slicer/releases/latest/download/Toggle-Switch-Slicer-Sample-PBIP.zip)
+· [sample report (.pbix)](https://github.com/fsantana2021/toggle-switch-slicer/releases/latest/download/Toggle-Switch-Slicer-Sample.pbix)
+· [sample as Power BI project (.pbip)](https://github.com/fsantana2021/toggle-switch-slicer/releases/latest/download/Toggle-Switch-Slicer-Sample-PBIP.zip)
 · [all releases](https://github.com/fsantana2021/toggle-switch-slicer/releases)
 
 In Power BI: *Visualizations › … › Import a visual from a file*. Some organizations only allow visuals from
