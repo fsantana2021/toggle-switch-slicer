@@ -34,6 +34,11 @@ a sample `.pbix` without confidential data.
 ## Privacy
 The visual does not collect or send any data. See [PRIVACY.md](PRIVACY.md).
 
+## Source code and license
+The source is in [`visual/`](visual) (TypeScript, built with `powerbi-visuals-tools`; see [visual/README.md](visual/README.md)).
+Released under the [MIT License](LICENSE): free to use, modify and share, with no warranty.
+Contributions and suggestions are welcome via issues and pull requests.
+
 ---
 
 # Chave Seletora (Toggle Switch Slicer) para Power BI
@@ -54,3 +59,6 @@ de exemplo sem dados confidenciais.
 
 ## Privacidade
 O visual não coleta nem envia dados. Veja [PRIVACY.md](PRIVACY.md).
+
+## Código-fonte e licença
+O código está em [`visual/`](visual). Licença [MIT](LICENSE): uso, alteração e distribuição livres, sem garantia.

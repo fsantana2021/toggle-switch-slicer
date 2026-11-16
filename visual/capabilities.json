@@ -1,0 +1,224 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Field (2 values)",
+      "name": "campo",
+      "kind": "Grouping",
+      "displayNameKey": "Role_Campo"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [
+        {
+          "campo": {
+            "max": 1
+          }
+        }
+      ],
+      "categorical": {
+        "categories": {
+          "for": {
+            "in": "campo"
+          },
+          "dataReductionAlgorithm": {
+            "top": {
+              "count": 100
+            }
+          }
+        }
+      }
+    }
+  ],
+  "objects": {
+    "general": {
+      "properties": {
+        "filter": {
+          "type": {
+            "filter": true
+          }
+        }
+      }
+    },
+    "valores": {
+      "properties": {
+        "ligado": {
+          "type": {
+            "text": true
+          }
+        },
+        "desligado": {
+          "type": {
+            "text": true
+          }
+        }
+      }
+    },
+    "rotulo": {
+      "properties": {
+        "texto": {
+          "type": {
+            "text": true
+          }
+        },
+        "tamanho": {
+          "type": {
+            "numeric": true
+          }
+        },
+        "negrito": {
+          "type": {
+            "bool": true
+          }
+        },
+        "corDesligado": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "corLigado": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "icone": {
+      "properties": {
+        "mostrar": {
+          "type": {
+            "bool": true
+          }
+        },
+        "tipo": {
+          "type": {
+            "enumeration": [
+              {
+                "value": "nenhum",
+                "displayName": "None"
+              },
+              {
+                "value": "lua",
+                "displayName": "Moon"
+              },
+              {
+                "value": "sol",
+                "displayName": "Sun"
+              },
+              {
+                "value": "filtro",
+                "displayName": "Filter"
+              },
+              {
+                "value": "check",
+                "displayName": "Check"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "chave": {
+      "properties": {
+        "corTrilhoLigado": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "corTrilhoDesligado": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "corBolinha": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "caixa": {
+      "properties": {
+        "mostrarBorda": {
+          "type": {
+            "bool": true
+          }
+        },
+        "raio": {
+          "type": {
+            "numeric": true
+          }
+        },
+        "corBordaDesligado": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "corBordaLigado": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "corFundoDesligado": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "corFundoLigado": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "privileges": [],
+  "supportsKeyboardFocus": true,
+  "suppressDefaultTitle": true,
+  "supportsSynchronizingFilterState": true,
+  "supportsLandingPage": true,
+  "supportsEmptyDataView": true,
+  "tooltips": {
+    "supportedTypes": {
+      "default": true,
+      "canvas": true
+    },
+    "roles": []
+  }
+}

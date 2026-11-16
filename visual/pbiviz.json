@@ -1,0 +1,29 @@
+{
+  "visual": {
+    "name": "chaveSeletora",
+    "displayName": "Toggle Switch Slicer",
+    "guid": "chaveSeletora42613EEDEB6747FD85AC90DD47708AF6",
+    "visualClassName": "Visual",
+    "version": "1.1.0.0",
+    "description": "A switch-style slicer for any two-value field: Yes/No, With/Without, Active/Inactive, Light/Dark… On applies one value, off applies the other value or clears the filter. Label (defaults to the field name), optional icon and colors for each state; syncs across pages, works with bookmarks, keyboard and high contrast. English and Portuguese.",
+    "supportUrl": "https://github.com/fsantana2021/toggle-switch-slicer",
+    "gitHubUrl": "https://github.com/fsantana2021/toggle-switch-slicer"
+  },
+  "apiVersion": "5.11.1",
+  "author": {
+    "name": "Felipe Santana",
+    "email": "93442836+fsantana2021@users.noreply.github.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [
+    "stringResources/en-US/resources.resjson",
+    "stringResources/pt-BR/resources.resjson"
+  ],
+  "version": "1.1.0.0"
+}
